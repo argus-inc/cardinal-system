@@ -28,7 +28,7 @@ Various node types handle various tasks.
 
 - Memory: Handling real time data, should have a priority link to Library to backup live data.
 
-- Seed: A node that pushed data sets for testing.
+- Seed: A node that creates the server instance with configuration. It constantly watches configuration file changes and pushes new nodes.
 
 - Achievement: Node that handles all achievements.
 
